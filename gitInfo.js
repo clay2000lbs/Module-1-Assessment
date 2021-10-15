@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+const gitDefinition = "Git is software for tracking changes in a set of files."
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+const gitHubDefinition = "Github is web and application base to store source code and manage version control."
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+const init = {
+    description: "The git init command is used to generate a new, empty Git repository or to reinitialize an existing one.",
+    code: "git init"
+};
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,6 +51,11 @@
 */
 
 //CODE HERE
+
+const clone = {
+    description: "The git clone is a git command, which creates a clone/copy of an existing repository into a new directory.",
+    code: " git clone -url-"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -51,6 +65,11 @@
 
 //CODE HERE
 
+const status = {
+    description: "The git status command shows the state of the working directory and the staging area.",
+    code: "git status"
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,6 +77,11 @@
 */
 
 //CODE HERE
+
+const add = {
+    description: "The git add command adds new or changed files in your working directory to the Git staging area.",
+    code: "git add . || git add <file name>"
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,6 +91,11 @@
 
 //CODE HERE
 
+const commit = {
+    description: "The git commit command captures a snapshot of the project's currently staged changes.",
+    code: "git commit -m <message goes here>"
+}
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +104,8 @@
 */
 
 //CODE HERE
+
+const push = {
+    description: "The git push command is used to upload local repository content to a remote repository.",
+    code: " git push"
+}
